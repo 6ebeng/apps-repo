@@ -15,10 +15,11 @@ description: |
   TorrServer is a torrent streaming server: it downloads and seeds torrents on
   the fly so you can start watching immediately, without waiting for the whole
   file. This port brings the official [YouROK/TorrServer](https://github.com/YouROK/TorrServer)
-  build directly to your webOS TV. The matching architecture is downloaded at
-  runtime, so the app stays tiny and always up to date.
+  build directly to your webOS TV. The 32-bit ARM binary is bundled inside the
+  package, so it works out of the box with no download on first launch.
 
-  Manage it from any device on your network at `http://<tv-ip>:8090`.
+  The server requires HTTP Basic Auth (credentials shown in the app) and is
+  managed from the TV or from any device on your network at `http://<tv-ip>:8090`.
 
   *Note: Please ensure you comply with all local regulations and webosbrew
   community guidelines when streaming content.*
